@@ -1,0 +1,31 @@
+<html>
+<head>
+<style>
+.ColorButton {
+ border: 0.5vw solid black;
+ padding: 5vw;
+ margin: 4px;
+ border-radius: 50%;	
+}
+</style>
+</head>
+<body>
+<button class="ColorButton" style="background-color: red;" onclick="color('red')"></button>
+<button class="ColorButton" style="background-color: orange;" onclick="color('orange')"></button>
+<button class="ColorButton" style="background-color: yellow;" onclick="color('yellow')"></button>
+<button class="ColorButton" style="background-color: green;" onclick="color('green')"></button>
+<button class="ColorButton" style="background-color: blue;" onclick="color('blue')"></button>
+<button class="ColorButton" style="background-color: INDIGO;" onclick="color('INDIGO')"></button>
+<button class="ColorButton" style="background-color: white;" onclick="color('white')"></button>
+<button class="ColorButton" style="background-color: black;" onclick="color('black')"></button>
+
+
+<script>
+function color(parm){
+document.body.style.backgroundColor = parm;
+}
+</script>
+
+</body>
+
+</html>
